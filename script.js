@@ -2,7 +2,7 @@ window.addEventListener('load', function() { showProgress(); setInterval(showPro
 
 function showProgress() {
     var result = oneLinePercentage() * 100;
-    document.getElementById("title").innerHTML = "Ajateenistuse Progress";
+    document.getElementById("title").innerHTML = "Progress";
     document.getElementById("progressBar").value = result;
     document.getElementById("p").innerHTML = result.toString().substr(0,11) + "%";
     console.log(result);
